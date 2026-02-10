@@ -1,0 +1,26 @@
+@config "../../tailwind.config.js";
+@import "tailwindcss";
+
+:root {
+	--color-primary: 37 99 235;
+	/* --color-primary: 234 88 12;  orange-600 */
+	--color-secondary: 99 102 241;
+	--color-accent: 16 185 129;
+	--color-bg: 255 255 255;
+	--color-text: 17 24 39;
+	--color-text: 15 23 42; /* slate-900 */
+	--color-surface: 241 245 249; /* slate-100 */
+	--color-muted: 100 116 139; /* slate-500 */
+}
+
+.dark {
+	--color-primary: 96 165 250;
+	/* --color-primary: 154 52 18;  orange-800 */
+	--color-secondary: 129 140 248;
+	--color-accent: 52 211 153;
+	--color-bg: 17 24 200;
+	--color-text: 243 244 246;
+	--color-text: 241 245 249; /* slate-100 */
+	--color-surface: 15 23 42; /* slate-900 */
+	--color-muted: 148 163 184; /* slate-400 */
+}
